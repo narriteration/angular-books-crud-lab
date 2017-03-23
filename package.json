@@ -1,0 +1,25 @@
+{
+  "name": "angular-books-crud-lab",
+  "version": "1.0.0",
+  "description": "poke, not books!",
+  "main": "seed.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/narriteration/angular-books-crud-lab.git"
+  },
+  "author": "chelsea mangold | @narriteration",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/narriteration/angular-books-crud-lab/issues"
+  },
+  "homepage": "https://github.com/narriteration/angular-books-crud-lab#readme",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "mongoose": "^4.9.1"
+  }
+}

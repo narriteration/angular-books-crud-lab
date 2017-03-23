@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="pokemonly">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Pokemonly</title>
+
+    <!-- STYLESHEETS -->
+    <link rel="stylesheet" href="/vendor/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/public/styles/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="/public/styles/styles.css">
+
+    <!-- VENDOR SCRIPTS -->
+    <script src="/vendor/angular/angular.js"></script>
+    <script src="/vendor/angular-route/angular-route.js"></script>
+
+    <!-- APPLICATION SCRIPTS -->
+    <script src="/public/scripts/app.js"></script>
+    <script src="public/scripts/controllers/PokemonIndexController.js"></script>
+    <script src="public/scripts/controllers/PokemonShowController.js"></script>
+
+  </head>
+
+
+  <body>
+    <div class="jumbotron">
+      <div class="container">
+        <h1>Welcome to Pokemonly</h1>
+        <p>Your poke binder!</p>
+      </div>
+    </div>
+
+    <!-- tells angular where the partial template is -->
+    <div ng-view></div>
+
+  </body>
+
+</html>
